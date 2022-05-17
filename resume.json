@@ -1,0 +1,326 @@
+{
+
+  "basics": {
+    "name": "Kevin Loveland",
+    "label": "Principal Software Engineer",
+    "image": "",
+    "email": "kevin.loveland+resume@gmail.com",
+    "phone": "(503) 314-3393",
+    "url": "http://kevinloveland.example.com",
+    "summary": "Over 25 years as a student of software development committed to a lifetime of learning better ways to develop higher quality, fully functional, extremely maintainable, and intellectually stimulating customer solutions. Proven record of team leadership, system architecture, design, development, and implementation. In-depth experience with multiple programming languages, software frameworks, and development methodologies. Excellent written and verbal communication skills partnering with customers, cross-functional groups, and all levels of management. Strong belief in continually challenging the norm to use proven technologies and methodologies that deliver high-quality software solutions to the market in a timely manner. Energized by difficult challenges, rapid learning, and meeting deadlines. ",
+    "location": {
+      "address": "15884 NW Hackney Dr.",
+      "postalCode": "OR 97229",
+      "city": "Portland",
+      "countryCode": "US",
+      "region": "Oregon"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",        "username": "kevinloveland",
+        "url": "https://www.linkedin.com/in/kevinloveland/"
+      },
+      {
+        "network": "GitHub",        "username": "zoobert",
+        "url": "https://github.com/zoobert"
+      }    ]
+  },
+  "work": [
+    {
+      "name": "DAT Freight & Analytics",
+      "description": "DAT Freight & Analytics operates the largest truckload freight marketplace in North America. Transportation brokers, carriers, news organizations and industry analysts rely on DAT for market trends and data insights derived from 249 million freight matches and a database of $110 billion of market transactions.",
+      "location": "Beaverton, OR",
+      "url": "https://www.dat.com",
+      "position": "Principal Software Engineer",
+      "summary": "Provide leadership and technical direction across individual teams across the engineering organization.",
+      "startDate": "2020-09-23",
+      "endDate": "2022-05-02",
+      "highlights": [
+        "Architected the next generation loadboard notification delivery system for providing real-time matches to carriers, brokers and shippers. The system was capable of handling over 1.6B match notifications daily across 80K active channels leveraging Kafka pipelines and server-sent events channels",
+        "Developed a multi-phase plan to resolve the cross-team coordiation challenges front-end teams encountered each release to a federated model which provided greater isolation and atonomy for each team",
+        "Led the migration the major legacy product from Subversion to GitHub applying best practices for building individual artifacts, de-coupling build dependencies and replacing the problematic Jenkins CI/CD servers with GitHub Actions",
+        "Participated on the task force to improve the handling of customer facing incidents and drastically reduce the downtime by incorporating observability best practices, well defined inicident commander responsiblities and an better understanding/configuration of existing paging software.",
+        "Provided a framework for architectural/design documentation with AsciiDoc, PlantUML and GitHub Pages adopting a 'documentation as code' approach."  
+      ]
+    },
+    {
+      "name": "New Relic",
+      "description": "New Relic One is the most powerful cloud-based observability platform built to help companies create more perfect software.",
+      "location": "Portland, OR",
+      "url": "http://newrelic.com",
+      "position": "Lead Software Engineer",
+      "summary": "Provide leadership on the alerts team responsible for the alerts evaluation pipeline.",
+      "startDate": "2019-09-30",
+      "endDate": "2020-09-15",
+      "highlights": [
+        "Participated as a member of the highly technical team of developers responsible for handling the processing and evaluation of all New Relic alerts. The system was constructed as a staged pipeline capable of handling billions of datapoints daily using Kafka and SpringBoot services deployed in Kubernetes.",
+        "Presented several company-wide technical talks on topic ranging from leveraging Jenkins Jobs to dynamically reconfigure services to streaming databases",
+        "Mentored several junior and mid-level engineers associated helping them with challenging technical topics, industry best practices and recommendations to help 'level up' in the next review cycle.",
+        "Architected and developed a new caching system within the alerts pipeline which provided a 4x improvement.",
+        "Developed data driven test scripts for automating some radical changes to alerts pipeline which allowed the incrementally deliver the changes with a high level of confidence and a minimal amount of manual testing shaving off 6 weeks of planned testing effort."
+      ]
+    },
+    {
+      "name": "Cvent",
+      "location": "Portland, OR",
+      "position": "Principal Software Engineer/Architect",
+      "url": "http://Cvent.com",
+      "startDate": "2017-05-15",
+      "endDate": "2019-09-15",
+      "summary": "Cvent solutions optimize the entire event management value chain and have enabled clients around the world to manage millions of meetings and events. ",
+      "highlights": [
+        "Developed framework for the next generation attendee experience application on Android/iOS using ReactNative providing 94% shared code and leveraging Couchbase Lite to sync data to mobile devices. New backend microservices leveraged “paved road” technologies and integration with legacy planner .Net services.", 
+        "A strong advocate for advancing Cvent’s Docker usage and container best practices for both services deployed to AWS ECR/Fargate and on-premise. Developed several deployable compositions of open-source Docker containers used by the CI/CD pipeline to enable trivial service upgrades. Provided training and promoted packaging developer tools in shared Docker containers for easy onboarding and version unification.", 
+        "Delivered architectural designs and guidance for Cvent’s authentication service using OpenID Connect and SAML2 based communications. Allowed customers to create federated relationships with their IdPs for both planner and attendee logins.", 
+        "Provided security training for new technology employees based on the OWASP Top 10 list. Meant to ensure all incoming technologists had a basic understanding of identifying and avoiding common software security problems.",  
+        "Participated in architectural groups exploring API-first design tools, delivering REST API standards and practices, advocating methods of improving code quality standards, and maturing the software development processes across the organization."
+      ]
+    },
+    {
+      "name": "Thomson Reuters",
+      "description": "Thomson Reuters is the world’s leading provider of news and information-based tools to professionals. Our worldwide network of journalists and specialist editors keep customers up to speed on global developments, with a particular focus on legal, regulatory and tax changes.",
+      "location": "Lake Oswego, OR",
+      "url": "https://www.thomsonreuters.com",
+      "position": "Senior Soutions Architect",
+      "summary": "",
+      "startDate": "2013-05-01",
+      "endDate": "2017-05-01",
+      "highlights": [
+        "Delivered a high-level architectural road map to outline the transformation a suite legacy JEE products into a modern, cloud-native, distributed system resulting in an increased investment of $3M into the business unit.",
+        "Championed the use of CI/CD to improve the software delivery cadence of the software development group driving the release cadence from 18 month cycles to 3 month cycles with the promise of shorter cycles in the near future. Managed a budget of $250K to “fast-track” the delivery of our CI/CD pipeline.", 
+        "Early adopter of Docker and successfully championed the use of Docker both within our development group and across the organization through presentations at internal technical conferences.",
+        "Led an architecture group of six providing high-level design and architecture focused on the migration of the flagship product through a series of tactical steps towards the new architecture and AWS deployment.",
+        "Strong advocate for providing developers with educational opportunities ranging from conference attendance, access to online technical book services, user group participation and cooperative learning.",
+        "Advocated and managed the vendor relationship and contracts of several developer tools and training materials including Safari Books Online which eventually resulted a technology-wide adoption of SBO across Thomson Reuters as the technology L&D resource of choice with a $250K+ contract.",
+        "Represented a $65M business unit within the Tax & Accounting arm of Thomson Reuters involved in transforming the greater organization from a product focused to platform focused suite of products. Responsibilities included evaluating technologies, evangelizing best practices and influencing the adoption of recommendations unifying the products and enabling faster delivery of customer solutions.",
+        "Architected and led the effort to eradicate technical debt associated with legacy, intertwined service and data access layers. Cleanly separated the layers, fully adopted an open-source ORM, and utilized an efficient open-source caching mechanism to improve the overall maintainability and scalability of the product.",
+        "Architected the initial POC design of a NoSQL based shared service for importing, storing and aggregating transactional accounting data across all of Tax & Accounting products within the cloud environment.",
+        "Successfully championed and led software development initiatives to improve best practices including Continuous Delivery, Test Driven Development, code reviews, static analysis tools and inner-sourcing.",
+        "Continually researched innovated ways to help improve our business unit’s software development process (e.g., reactive programming, container technologies, infrastructure management tools) and presented results both to development groups and at internal conferences."
+      ]
+    },
+    {
+      "name": "Thomson Reuters",
+      "description": "Thomson Reuters is the world’s leading provider of news and information-based tools to professionals. Our worldwide network of journalists and specialist editors keep customers up to speed on global developments, with a particular focus on legal, regulatory and tax changes.",
+      "location": "Lake Oswego, OR",
+      "url": "https://www.thomsonreuters.com",
+      "position": "Principal Software Engineer",
+      "summary": "",
+      "startDate": "2008-09-22",
+      "endDate": "2013-05-01",
+      "highlights": [
+        "Led a team seven developers through the complete release cycle of a re-architected reporting solution built on SAP BusinessObjects DataServices and Crystal Reports. Users supplied inputs to Crystal Reports through a browser interface allowing the easy generation of ad-hoc reports from both canned or customized reports.",
+        "Architected, designed and implemented a distributed framework for recording audited tax calculations resulting in a more scalable implementation with a 50% performance improvement.",
+        "Developed the code for the tax calculations to support the tax code changes to the European Union in 2010. Wrote the accompany unit/functional tests that provided 100% code coverage."
+      ]
+    },
+    {
+      "name": "Routeware, Inc.",
+      "description": "Routeware delivers forward-thinking digital solutions that are transforming the waste and recycling industry toward greater efficiency, resilience, sustainability, and profit.",
+      "location": "Beaverton, OR",
+      "position": "Senior Software Engineer/Consultant",
+      "summary": "",
+      "url": "https://routeware.com/",
+      "startDate": "2008-02-01",
+      "endDate": "2010-08-01",
+      "highlights": [
+        "Architected, designed and implemented navigation system for the DMS5000, an onboard touch screen computer installed in truck fleets. The system provided street level maps, stop indicators and turn-by-turn directions and was implemented on a compressed schedule to meet deadlines set prior to my arrival.",
+        "Designed and developed integration of commercially available VoIP system that was embedded into the DMS5000 using a HSP connection to a Bluetooth device. Setup a SIP server for internal use/testing."
+      ]
+    },
+    {
+      "name": "Serena Software",
+      "location": "Hillsboro, OR",
+      "position": "Senior Staff Software Developer",
+      "summary": "",
+      "url": "n/a",
+      "startDate": "2004-09-01",
+      "endDate": "2008-02-01",
+      "highlights": [
+        "Improved application performance by 275% and reduced network traffic on the database server by 50% by optimizing the query engine for the Requirements Management product resulting in satisfying a number of major customers and receiving accolades from senior management. Heavily utilized knowledge of SQL, PL/SQL, Oracle optimizer, AWR reports, and network monitoring tools to create database views and triggers to optimize performance and compensate for the architecture of the legacy codebase.",
+        "Architected several releases of the Requirements Management product by partnering with external customers and product marketing and by overseeing the design and implementation of team of developers.",
+        "Researched many cutting edge technologies for next generation products including Spring, Hibernate, and Dojo. Investigated the tying Hibernate’s HQL parser together with the RM query parser for more efficient simple query and traceability matrix handling.",
+        "Developed extensive user stories incorporating many user requested features with agile methodologies for development of the next generation Requirements Management product."
+      ]
+    },
+    {
+      "name": "Merant/Intersolv",
+      "location": "Hillsboro, OR",
+      "position": "Principal Software Developer",
+      "summary": "",
+      "url": "n/a",
+      "startDate": "1998-02-01",
+      "endDate": "2004-09-01",
+      "highlights": [
+        " Led developers in the design and development of a cross-product data synchronization engine that was a key component to close many customer deals against competing products. Designed and developed the product as an NT service written in C++ that provided a data source agnostic architecture by dynamically loading data source providers and using a contract based design.",
+        "Advocated the use agile development methodologies using Scrum, continuous integration and collaboration tools which allowed for increased control over product schedules and improved product quality.",
+        "Drove the implementation of organizational development objectives for the Hillsboro site including quality and key development objectives. Led the development and architecture of several product lines. "
+      ]
+    },
+    {
+      "name": "Network General/Network Associates, Inc.",
+      "location": "Beaverton, OR",
+      "position": "Lead Software Developer",
+      "summary": "",
+      "url": "n/a",
+      "startDate": "1994-05-01",
+      "endDate": "1998-02-01",
+      "highlights": [
+        "Designed and developed the data collection engine for the award-winning, next generation network analysis reporting tool. Product was developed by a small team on a compressed schedule to meet shareholder demands for new product architecture. Heavily utilized knowledge of C++ and various network protocols.",
+        "Led 4 developers in the continued development of a multi-platform network analysis tool through several full product releases. Resolved several critical issues through high profile customer visits after initially assuming responsibility for the product. Developed with C++ and x86 assembly on Windows and OS/2.",
+        "Improved product perception and lowered customer support calls by stabilizing the code base within the first six months receiving an award from the CEO recognizing my efforts.",
+        "Designed a unique, highly efficient data collection algorithm used by multiple products for gathering protocol statistics from heterogeneous network probes.",
+        "Successfully delivered the final end-of-life release of a network analysis tool completing all engineering documentation for product marketing and Foundation manager. completed marketing and other documents"
+      ]
+    },
+    {
+      "name": "Software AG",
+      "location": "Dallas, TX",
+      "position": "Senior Software Developer",
+      "summary": "",
+      "url": "n/a",
+      "startDate": "1991-01-01",
+      "endDate": "1994-05-01",
+      "highlights": [
+        "Developed a multi-platform GUI development library for Windows 3.x, OS/2 PM, and X/Motif. The library was used by a several large multi-platform software projects including Software AG’s 4GL integrated development environment."
+      ]
+    },
+    {
+      "name": "Titus Communications",
+      "location": "Dallas, TX",
+      "position": "Software Developer/Consultant",
+      "summary": "",
+      "url": "n/a",
+      "startDate": "1988-08-01",
+      "endDate": "1990-12-01",
+      "highlights": [
+        "Designed and developed of a Windows-like graphical menu system for non-Windows, DOS-based systems that received acclaim in several technical journals including accolades by John Dvorak in PC Magazine. Saved our customer base thousands of dollars in system upgrade costs by providing them Windows-like capabilities without the need to upgrade their 286 based systems.",
+        "Pre-TrueType font rasterization development for matching printer fonts.",
+        "Developed remote reporter system for posting pre-Intrernet stories."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Oregon Game Project Challenge",
+      "position": "Technical Judge",
+      "url": "https://www.ogpc.info/",
+      "startDate": "2010-05-01",
+      "endDate": "2015-05-01",
+      "summary": "OGPC is a program that uses game development as a means of engaging students in various STEM/STEAM disciplines while having loads of fun. ",
+      "highlights": [
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Oregon Institue of Technology",
+      "url": "https://www.oit.edu/",
+      "area": "Software Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2004-05-01",
+      "endDate": "2008-06-01",
+      "score": "4.0",
+      "courses": [
+      ]
+    }
+  ],
+  "awards": [
+  ],
+  "publications": [
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "level": "Master",
+      "keywords": [
+        "C/C++",
+        "Java",
+        "C#",
+        "Ruby",
+        "Perl",
+        "Scala",
+        "JavaScript/TypeScript",
+        "SQL",
+        "PL/SQL",
+        "PHP",
+        "VB",
+        "x86 Assembly"
+      ]
+    },
+    {
+      "name": "Operating Systems",
+      "level": "Master",
+      "keywords": [
+        "Windows",
+        "Linux",
+        "MacOS",
+        "Solaris",
+        "HPUX",
+        "OS/2"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "Master",
+      "keywords": [
+        "Oracle",
+        "SQL Server",
+        "DB2",
+        "SyBase",
+        "MySQL",
+        "Postgres",
+        "Couchbase",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "Frameworks",
+      "level": "Master",
+      "keywords": [
+        "AWS",
+        "Docker",
+        ".Net",
+        "Spring/SpringBoot",
+        "DropWizard",
+        "Hibernate",
+        "Rails",
+        "Spock",
+        "ScalaTest",
+        "Angular",
+        "React",
+        "ReactNative",
+        "JUnit",
+        "Kubernetes"
+      ]
+    },
+    {
+      "name": "Tools",
+      "level": "Master",
+      "keywords": [
+        "Gradle",
+        "Maven",
+        "Git",
+        "svn",
+        "Kafka"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+  ],
+  "references": [
+  ],
+  "projects": [
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/zoobert/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
